@@ -3,6 +3,8 @@ const about =document.getElementsByTagName("p");
 
 const day2Learnig =document.getElementById("day2")
 
-//day2Learnig.innerText='Hello inner text now change'
-console.log(day2Learnig);
-console.log(day2Learnig.innerText);
+const queryElement =document.querySelectorAll('.item');
+
+for (const span of queryElement ){
+  console.log (span.innerText)
+}
